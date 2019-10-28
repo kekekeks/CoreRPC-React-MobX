@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="CoreRPC.AspNetCore" Version="0.4.4" />
+    </ItemGroup>
+    <ItemGroup>
+      <TypeScriptCompile Include="webapp\src\app.tsx" />
+      <TypeScriptCompile Include="webapp\src\components\AdminShell.tsx" />
+      <TypeScriptCompile Include="webapp\src\components\NavRouterLink.tsx" />
+      <TypeScriptCompile Include="webapp\src\components\UserShell.tsx" />
+      <TypeScriptCompile Include="webapp\src\index.tsx" />
+      <TypeScriptCompile Include="webapp\src\pages\AboutPage.tsx" />
+      <TypeScriptCompile Include="webapp\src\pages\HomePage.tsx" />
+      <TypeScriptCompile Include="webapp\src\routes.tsx" />
+      <TypeScriptCompile Include="webapp\src\stores\AboutStore.ts" />
+      <TypeScriptCompile Include="webapp\src\stores\HomeStore.ts" />
+      <TypeScriptCompile Include="webapp\src\stores\RootStore.ts" />
+      <TypeScriptCompile Include="webapp\src\utilities.tsx" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="webapp\src\assets" />
+      <Folder Include="wwwroot" />
+    </ItemGroup>
+
+</Project>
