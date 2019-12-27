@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace MiniApp.Rpc
 {
-    public class RpcBase : IHttpContextAwareRpc
+    public abstract class RpcBase : IHttpContextAwareRpc
     {
         
         
